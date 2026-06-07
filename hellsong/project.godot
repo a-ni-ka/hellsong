@@ -18,6 +18,13 @@ config/name="Hellsong"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=780
+window/size/viewport_height=520
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [input]
 
 mvm_up={
