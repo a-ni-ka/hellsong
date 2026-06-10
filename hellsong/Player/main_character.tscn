@@ -47,7 +47,8 @@ animations = [{
 "speed": 7.0
 }]
 
-[node name="Main Character" type="CharacterBody2D" unique_id=1321779993]
+[node name="mc" type="CharacterBody2D" unique_id=1321779993]
+collision_mask = 2
 motion_mode = 1
 script = ExtResource("1_b6idk")
 
@@ -58,4 +59,3 @@ shape = SubResource("RectangleShape2D_b6idk")
 [node name="PlayerSprite" type="AnimatedSprite2D" parent="." unique_id=416309416]
 sprite_frames = SubResource("SpriteFrames_46sf4")
 animation = &"idle"
-frame_progress = 0.020620124

@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://b04l8sdgie6l3" path="res://Assets/testing/lvl1-wall-tiles.png" id="1_fo3s5"]
 [ext_resource type="PackedScene" uid="uid://bmi6ean4ud4eq" path="res://Player/main_character.tscn" id="2_fo3s5"]
 [ext_resource type="Texture2D" uid="uid://byfk7cwuwrxcs" path="res://Assets/testing/background_tile.png" id="2_uw635"]
+[ext_resource type="PackedScene" uid="uid://dlpfg0vlhpabc" path="res://Scenes/enemy.tscn" id="4_uw635"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1sv68"]
 texture = ExtResource("2_uw635")
@@ -66,5 +67,8 @@ tile_set = SubResource("TileSet_v04e6")
 position = Vector2(218, 160)
 zoom = Vector2(1.955, 1.955)
 
-[node name="Main Character" parent="." unique_id=1321779993 instance=ExtResource("2_fo3s5")]
-position = Vector2(79, 61)
+[node name="enemy" parent="." unique_id=168294899 instance=ExtResource("4_uw635")]
+position = Vector2(304, 152)
+
+[node name="mc" parent="." unique_id=1321779993 instance=ExtResource("2_fo3s5")]
+position = Vector2(104, 144)
